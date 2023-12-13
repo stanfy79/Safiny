@@ -155,6 +155,7 @@ div#div-sub-heading {
     width: 100%;
     padding: 5px 10px;
     display: flex;
+    margin-top: 6rem;
     flex-flow: row wrap;
     outline: none;
     border-radius: 10px;
