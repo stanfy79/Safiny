@@ -155,7 +155,7 @@ div#div-sub-heading {
     width: 100%;
     padding: 5px 10px;
     display: flex;
-    margin-top: 6rem;
+    margin-top: 4.2rem;
     flex-flow: row wrap;
     outline: none;
     border-radius: 10px;
@@ -472,6 +472,7 @@ footer {
     }
     #destop-menu-tools {
         display: flex;
+        position: sticky;
         flex-flow: row nowrap;
         width: 100%;
         padding: 5px;
