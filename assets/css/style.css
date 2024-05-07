@@ -303,7 +303,7 @@ h2 {
 }
 
 #lang-tools {
-    background: #e4e4e4;
+    background: transparent;
     height: auto;
     width: 100%;
     color: #1f1f1f;
@@ -319,6 +319,7 @@ h2 {
     border-left: 2px solid #5fff3d;
     background: #e4e4e4;
     height: auto;
+    border-radius: 20px;
     width: 100%;
     color: #1d1d1d;
     padding: 5px 15px;
@@ -463,9 +464,12 @@ footer {
         width: 100%;
     }
     .wrapper-container {
-        width: 70%;
-        display: flex;
-        justify-self: center;
+        width: 65%;
+        margin: 0 auto;
+    }
+    #code-tips p {
+        max-width: 50%;
+        font-size: 15px;
     }
     
     #menu-container, #menu-close, #menu-icon, #title-img, footer video {
