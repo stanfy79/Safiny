@@ -488,7 +488,7 @@ footer {
         z-index: 2;
     }
     
-    #menu-close, #menu-icon, #title-img, footer video {
+    #menu-container, #menu-close, #menu-icon, #title-img, footer video {
         display: none;
     }
     #destop-menu-container {
