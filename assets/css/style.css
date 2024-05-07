@@ -469,12 +469,14 @@ footer {
     }
     #code-tips p {
         max-width: 50%;
+        margin: 0 auto;
         font-size: 15px;
     }
     #menu-container {
-        display flex;
+        display: flex;
+        width: 25%;
         justify-self: start;
-        position: stactic;
+        position: relative;
     }
     
     #menu-close, #menu-icon, #title-img, footer video {
