@@ -471,8 +471,13 @@ footer {
         max-width: 50%;
         font-size: 15px;
     }
+    #menu-container {
+        display flex;
+        justify-self: start;
+        position: stactic;
+    }
     
-    #menu-container, #menu-close, #menu-icon, #title-img, footer video {
+    #menu-close, #menu-icon, #title-img, footer video {
         display: none;
     }
     #destop-menu-container {
