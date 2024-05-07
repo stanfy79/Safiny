@@ -462,6 +462,9 @@ footer {
     .main-col {
         width: 100%;
     }
+    .wrapper-container {
+        width: 70%;
+    }
     
     #menu-container, #menu-close, #menu-icon, #title-img, footer video {
         display: none;
