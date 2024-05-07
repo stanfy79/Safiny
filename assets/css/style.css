@@ -474,9 +474,9 @@ footer {
     }
     #menu-container {
         width: 25%;
+        display: flex;
         justify-self: start;
-        position: relative;
-
+        position: absolute;
         background: #e9e9e9;
         height: 100vh;
         top: 0%;
